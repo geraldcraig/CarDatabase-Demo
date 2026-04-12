@@ -2,5 +2,5 @@ package org.example;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface CarRepository extends CrudRepository<Car, Long> {
+public interface OwnerRepository extends CrudRepository<Owner, Long> {
 }
