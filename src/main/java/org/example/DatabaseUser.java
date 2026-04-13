@@ -7,16 +7,16 @@ public class DatabaseUser {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(nullable = false, updatable = false)
+    @Column(nullable = false, updatable = false)
     private Long id;
 
-//    @Column(nullable = false, unique = true)
+    @Column(nullable = false, unique = true)
     private String userName;
 
-//    @Column(nullable = false)
+    @Column(nullable = false)
     private String userPassword;
 
-//    @Column(nullable = false)
+    @Column(nullable = false)
     private String role;
 
     public DatabaseUser() {
